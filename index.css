@@ -1,0 +1,39 @@
+body{
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#box{
+    display: grid;
+    grid-template-columns: 25px 100px 25px;
+    width: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    
+}
+#number{
+    text-align: center;
+}
+h1{
+    margin-top: 200px;
+    text-align: center;
+}
+button{
+    height: 25px;
+    width: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 5px;
+}
+#plus{
+    background-color: lawngreen;
+    border-color: lawngreen;
+}
+#min{
+    background-color: tomato;
+    border-color: tomato;
+}
+p{
+    font-weight: bold;
+    font-size: 25px;
+}
